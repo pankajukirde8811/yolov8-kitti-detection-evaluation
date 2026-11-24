@@ -1,5 +1,5 @@
 scene,det,cls,conf,status,gt,iou,gt_distance_m,reason
-006037,0,car,0.868,TP,0,0.859,17.3,
+006037,0,car,0.868,TP,0,0.86,17.3,
 006037,1,car,0.824,TP,1,0.76,31.3,
 006037,2,car,0.544,TP,3,0.551,29.6,
 006037,3,car,0.522,TP,4,0.551,34.9,
@@ -10,7 +10,7 @@ scene,det,cls,conf,status,gt,iou,gt_distance_m,reason
 006042,2,car,0.659,FP,,0.0,,Van in full KITTI labels (not a 'Car')
 006048,0,car,0.831,TP,3,0.954,17.1,
 006048,1,car,0.815,TP,0,0.863,23.2,
-006048,2,car,0.682,TP,2,0.869,16.9,
+006048,2,car,0.682,TP,2,0.868,16.9,
 006048,3,car,0.668,TP,1,0.93,5.0,
 006048,4,car,0.634,FP,3,0.037,,inside KITTI 'DontCare' region (unlabelled far/hidden vehicle)
 006048,5,car,0.447,TP,4,0.671,39.1,
@@ -18,29 +18,29 @@ scene,det,cls,conf,status,gt,iou,gt_distance_m,reason
 006054,1,car,0.836,TP,2,0.921,31.5,
 006054,2,car,0.828,TP,3,0.618,15.7,
 006054,3,car,0.614,TP,7,0.843,58.5,
-006054,4,car,0.584,FP,2,0.01,,no GT object here - unlabelled car or false alarm (check image)
+006054,4,car,0.583,FP,2,0.01,,no GT object here - unlabelled car or false alarm (check image)
 006054,5,car,0.579,TP,4,0.692,21.6,
-006054,6,car,0.42,FP,6,0.178,,poor localisation (IoU 0.18 with GT car 6)
+006054,6,car,0.419,FP,6,0.178,,poor localisation (IoU 0.18 with GT car 6)
 006054,7,car,0.379,TP,6,0.629,32.1,
-006054,8,car,0.365,FP,6,0.554,,duplicate (GT car 6 already matched)
+006054,8,car,0.364,FP,6,0.554,,duplicate (GT car 6 already matched)
 006054,9,car,0.358,FP,,0.0,,inside KITTI 'DontCare' region (unlabelled far/hidden vehicle)
 006059,0,car,0.856,TP,5,0.866,32.0,
 006059,1,car,0.797,TP,1,0.809,50.6,
 006059,2,car,0.732,TP,0,0.721,30.9,
 006059,3,car,0.5,TP,2,0.766,51.6,
 006059,4,car,0.339,FP,3,0.425,,poor localisation (IoU 0.43 with GT car 3)
-006059,5,car,0.33,TP,3,0.574,67.7,
+006059,5,car,0.331,TP,3,0.574,67.7,
 006059,6,car,0.29,TP,4,0.759,69.9,
 006067,0,car,0.817,TP,0,0.889,24.6,
 006067,1,car,0.813,TP,2,0.906,33.9,
 006067,2,car,0.75,TP,3,0.843,23.6,
 006067,3,car,0.624,TP,4,0.797,47.8,
-006067,4,car,0.495,FP,3,0.192,,poor localisation (IoU 0.19 with GT car 3)
+006067,4,car,0.496,FP,3,0.192,,poor localisation (IoU 0.19 with GT car 3)
 006097,0,car,0.908,TP,3,0.924,10.1,
 006097,1,car,0.873,TP,5,0.883,2.6,
 006097,2,car,0.847,TP,4,0.604,7.9,
 006097,3,car,0.81,TP,2,0.842,16.9,
-006097,4,car,0.761,TP,0,0.739,25.1,
+006097,4,car,0.762,TP,0,0.739,25.1,
 006097,5,car,0.738,TP,1,0.782,20.2,
 006097,6,car,0.59,FP,,0.0,,inside KITTI 'DontCare' region (unlabelled far/hidden vehicle)
 006097,7,car,0.332,FP,,0.0,,inside KITTI 'DontCare' region (unlabelled far/hidden vehicle)
@@ -51,7 +51,7 @@ scene,det,cls,conf,status,gt,iou,gt_distance_m,reason
 006098,2,car,0.652,TP,0,0.873,12.5,
 006098,3,car,0.293,TP,3,0.767,34.7,
 006130,0,car,0.251,FP,,0.0,,no GT object here - unlabelled car or false alarm (check image)
-006206,0,car,0.685,TP,0,0.769,44.1,
+006206,0,car,0.684,TP,0,0.769,44.1,
 006211,0,car,0.909,TP,9,0.888,5.8,
 006211,1,car,0.9,TP,1,0.931,4.6,
 006211,2,car,0.854,TP,10,0.884,23.4,
@@ -60,14 +60,14 @@ scene,det,cls,conf,status,gt,iou,gt_distance_m,reason
 006211,5,car,0.735,TP,2,0.777,9.4,
 006211,6,car,0.668,FP,11,0.334,,poor localisation (IoU 0.33 with GT car 11)
 006211,7,car,0.422,TP,5,0.934,25.4,
-006211,8,car,0.413,TP,8,0.604,43.1,
-006211,9,car,0.377,FP,8,0.395,,poor localisation (IoU 0.40 with GT car 8)
-006211,10,car,0.322,FP,,0.0,,"small, unlabelled object (21 px high) - possibly a real car missing in GT"
+006211,8,car,0.413,TP,8,0.605,43.1,
+006211,9,car,0.376,FP,8,0.395,,poor localisation (IoU 0.40 with GT car 8)
+006211,10,car,0.323,FP,,0.0,,"small, unlabelled object (21 px high) - possibly a real car missing in GT"
 006211,11,car,0.302,FP,0,0.042,,"small, unlabelled object (23 px high) - possibly a real car missing in GT"
-006227,0,car,0.904,TP,0,0.932,12.7,
+006227,0,car,0.903,TP,0,0.932,12.7,
 006227,1,car,0.875,TP,1,0.728,19.7,
 006253,0,car,0.915,TP,2,0.856,8.9,
-006253,1,car,0.829,TP,3,0.684,17.3,
+006253,1,car,0.829,TP,3,0.685,17.3,
 006253,2,car,0.805,TP,0,0.889,26.1,
 006253,3,car,0.452,FP,5,0.301,,poor localisation (IoU 0.30 with GT car 5)
 006253,4,car,0.426,FP,,0.0,,no GT object here - unlabelled car or false alarm (check image)
@@ -81,7 +81,7 @@ scene,det,cls,conf,status,gt,iou,gt_distance_m,reason
 006291,5,car,0.772,TP,4,0.693,21.2,
 006291,6,car,0.741,FP,2,0.307,,poor localisation (IoU 0.31 with GT car 2)
 006291,7,car,0.739,FP,3,0.495,,poor localisation (IoU 0.50 with GT car 3)
-006291,8,car,0.655,TP,6,0.588,30.8,
+006291,8,car,0.655,TP,6,0.589,30.8,
 006291,9,car,0.383,FP,10,0.084,,no GT object here - unlabelled car or false alarm (check image)
 006291,10,car,0.372,FP,9,0.391,,poor localisation (IoU 0.39 with GT car 9)
 006291,11,car,0.327,FP,6,0.214,,poor localisation (IoU 0.21 with GT car 6)
@@ -98,22 +98,22 @@ scene,det,cls,conf,status,gt,iou,gt_distance_m,reason
 006312,3,car,0.785,TP,0,0.915,31.2,
 006312,4,car,0.767,TP,3,0.638,17.9,
 006312,5,car,0.728,FP,7,0.435,,poor localisation (IoU 0.44 with GT car 7)
-006312,6,car,0.702,TP,5,0.761,36.3,
+006312,6,car,0.702,TP,5,0.76,36.3,
 006312,7,car,0.382,FP,7,0.075,,"small, unlabelled object (20 px high) - possibly a real car missing in GT"
 006312,8,car,0.335,FP,2,0.008,,"small, unlabelled object (13 px high) - possibly a real car missing in GT"
 006315,0,car,0.897,TP,0,0.92,16.3,
 006315,1,car,0.874,FP,,0.0,,no GT object here - unlabelled car or false alarm (check image)
-006315,2,car,0.514,TP,1,0.678,53.7,
+006315,2,car,0.514,TP,1,0.679,53.7,
 006315,3,car,0.512,FP,,0.0,,no GT object here - unlabelled car or false alarm (check image)
 006315,4,car,0.502,FP,,0.0,,no GT object here - unlabelled car or false alarm (check image)
-006315,5,car,0.441,FP,,0.0,,Van in full KITTI labels (not a 'Car')
+006315,5,car,0.442,FP,,0.0,,Van in full KITTI labels (not a 'Car')
 006315,6,car,0.384,FP,,0.0,,Van in full KITTI labels (not a 'Car')
 006315,7,car,0.368,FP,,0.0,,inside KITTI 'DontCare' region (unlabelled far/hidden vehicle)
-006315,8,car,0.26,FP,,0.0,,inside KITTI 'DontCare' region (unlabelled far/hidden vehicle)
+006315,8,car,0.261,FP,,0.0,,inside KITTI 'DontCare' region (unlabelled far/hidden vehicle)
 006329,0,car,0.909,TP,2,0.663,8.9,
 006329,1,car,0.885,TP,0,0.914,9.4,
-006329,2,car,0.796,FP,0,0.403,,poor localisation (IoU 0.40 with GT car 0)
+006329,2,car,0.797,FP,0,0.403,,poor localisation (IoU 0.40 with GT car 0)
 006329,3,car,0.68,TP,1,0.753,4.1,
 006329,4,car,0.35,FP,0,0.134,,poor localisation (IoU 0.13 with GT car 0)
 006374,0,car,0.925,TP,1,0.868,6.9,
-006374,1,car,0.875,TP,0,0.93,18.2,
+006374,1,car,0.875,TP,0,0.929,18.2,

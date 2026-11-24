@@ -58,7 +58,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 
 | what | status | conf | iou | gt | reason |
 |---|---|---|---|---|---|
-| det 0 | TP | 0.868 | 0.859 | 0 |  |
+| det 0 | TP | 0.868 | 0.86 | 0 |  |
 | det 1 | TP | 0.824 | 0.76 | 1 |  |
 | det 2 | TP | 0.544 | 0.551 | 3 |  |
 | det 3 | TP | 0.522 | 0.551 | 4 |  |
@@ -84,7 +84,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 |---|---|---|---|---|---|
 | det 0 | TP | 0.831 | 0.954 | 3 |  |
 | det 1 | TP | 0.815 | 0.863 | 0 |  |
-| det 2 | TP | 0.682 | 0.869 | 2 |  |
+| det 2 | TP | 0.682 | 0.868 | 2 |  |
 | det 3 | TP | 0.668 | 0.93 | 1 |  |
 | det 4 | FP | 0.634 | 0.037 | 3 | inside KITTI 'DontCare' region (unlabelled far/hidden vehicle) |
 | det 5 | TP | 0.447 | 0.671 | 4 |  |
@@ -100,11 +100,11 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 | det 1 | TP | 0.836 | 0.921 | 2 |  |
 | det 2 | TP | 0.828 | 0.618 | 3 |  |
 | det 3 | TP | 0.614 | 0.843 | 7 |  |
-| det 4 | FP | 0.584 | 0.01 | 2 | no GT object here - unlabelled car or false alarm (check image) |
+| det 4 | FP | 0.583 | 0.01 | 2 | no GT object here - unlabelled car or false alarm (check image) |
 | det 5 | TP | 0.579 | 0.692 | 4 |  |
-| det 6 | FP | 0.42 | 0.178 | 6 | poor localisation (IoU 0.18 with GT car 6) |
+| det 6 | FP | 0.419 | 0.178 | 6 | poor localisation (IoU 0.18 with GT car 6) |
 | det 7 | TP | 0.379 | 0.629 | 6 |  |
-| det 8 | FP | 0.365 | 0.554 | 6 | duplicate (GT car 6 already matched) |
+| det 8 | FP | 0.364 | 0.554 | 6 | duplicate (GT car 6 already matched) |
 | det 9 | FP | 0.358 | 0.0 |  | inside KITTI 'DontCare' region (unlabelled far/hidden vehicle) |
 | GT 0 | FN |  | 0.049 | 0 | detected as 'truck' (IoU 0.86) |
 | GT 5 | FN |  | 0.492 | 5 | car detection overlaps only with IoU 0.49 < 0.5, largely occluded |
@@ -120,7 +120,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 | det 2 | TP | 0.732 | 0.721 | 0 |  |
 | det 3 | TP | 0.5 | 0.766 | 2 |  |
 | det 4 | FP | 0.339 | 0.425 | 3 | poor localisation (IoU 0.43 with GT car 3) |
-| det 5 | TP | 0.33 | 0.574 | 3 |  |
+| det 5 | TP | 0.331 | 0.574 | 3 |  |
 | det 6 | TP | 0.29 | 0.759 | 4 |  |
 
 ### 006067  -  P=0.80  R=0.80
@@ -133,7 +133,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 | det 1 | TP | 0.813 | 0.906 | 2 |  |
 | det 2 | TP | 0.75 | 0.843 | 3 |  |
 | det 3 | TP | 0.624 | 0.797 | 4 |  |
-| det 4 | FP | 0.495 | 0.192 | 3 | poor localisation (IoU 0.19 with GT car 3) |
+| det 4 | FP | 0.496 | 0.192 | 3 | poor localisation (IoU 0.19 with GT car 3) |
 | GT 1 | FN |  | 0.0 | 1 | not detected, partly occluded, small (24 px high), far away (44 m) |
 
 ### 006097  -  P=0.60  R=1.00
@@ -146,7 +146,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 | det 1 | TP | 0.873 | 0.883 | 5 |  |
 | det 2 | TP | 0.847 | 0.604 | 4 |  |
 | det 3 | TP | 0.81 | 0.842 | 2 |  |
-| det 4 | TP | 0.761 | 0.739 | 0 |  |
+| det 4 | TP | 0.762 | 0.739 | 0 |  |
 | det 5 | TP | 0.738 | 0.782 | 1 |  |
 | det 6 | FP | 0.59 | 0.0 |  | inside KITTI 'DontCare' region (unlabelled far/hidden vehicle) |
 | det 7 | FP | 0.332 | 0.0 |  | inside KITTI 'DontCare' region (unlabelled far/hidden vehicle) |
@@ -182,7 +182,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 
 | what | status | conf | iou | gt | reason |
 |---|---|---|---|---|---|
-| det 0 | TP | 0.685 | 0.769 | 0 |  |
+| det 0 | TP | 0.684 | 0.769 | 0 |  |
 
 ### 006211  -  P=0.67  R=0.62
 
@@ -198,13 +198,13 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 | det 5 | TP | 0.735 | 0.777 | 2 |  |
 | det 6 | FP | 0.668 | 0.334 | 11 | poor localisation (IoU 0.33 with GT car 11) |
 | det 7 | TP | 0.422 | 0.934 | 5 |  |
-| det 8 | TP | 0.413 | 0.604 | 8 |  |
-| det 9 | FP | 0.377 | 0.395 | 8 | poor localisation (IoU 0.40 with GT car 8) |
-| det 10 | FP | 0.322 | 0.0 |  | small, unlabelled object (21 px high) - possibly a real car missing in GT |
+| det 8 | TP | 0.413 | 0.605 | 8 |  |
+| det 9 | FP | 0.376 | 0.395 | 8 | poor localisation (IoU 0.40 with GT car 8) |
+| det 10 | FP | 0.323 | 0.0 |  | small, unlabelled object (21 px high) - possibly a real car missing in GT |
 | det 11 | FP | 0.302 | 0.042 | 0 | small, unlabelled object (23 px high) - possibly a real car missing in GT |
 | GT 3 | FN |  | 0.211 | 3 | car detection overlaps only with IoU 0.21 < 0.5, largely occluded |
 | GT 4 | FN |  | 0.491 | 4 | car detection overlaps only with IoU 0.49 < 0.5, largely occluded |
-| GT 6 | FN |  | 0.425 | 6 | car detection overlaps only with IoU 0.42 < 0.5, largely occluded |
+| GT 6 | FN |  | 0.424 | 6 | car detection overlaps only with IoU 0.42 < 0.5, largely occluded |
 | GT 11 | FN |  | 0.334 | 11 | car detection overlaps only with IoU 0.33 < 0.5, largely occluded |
 | GT 12 | FN |  | 0.339 | 12 | car detection overlaps only with IoU 0.34 < 0.5, largely occluded |
 
@@ -214,7 +214,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 
 | what | status | conf | iou | gt | reason |
 |---|---|---|---|---|---|
-| det 0 | TP | 0.904 | 0.932 | 0 |  |
+| det 0 | TP | 0.903 | 0.932 | 0 |  |
 | det 1 | TP | 0.875 | 0.728 | 1 |  |
 
 ### 006253  -  P=0.57  R=0.67
@@ -224,7 +224,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 | what | status | conf | iou | gt | reason |
 |---|---|---|---|---|---|
 | det 0 | TP | 0.915 | 0.856 | 2 |  |
-| det 1 | TP | 0.829 | 0.684 | 3 |  |
+| det 1 | TP | 0.829 | 0.685 | 3 |  |
 | det 2 | TP | 0.805 | 0.889 | 0 |  |
 | det 3 | FP | 0.452 | 0.301 | 5 | poor localisation (IoU 0.30 with GT car 5) |
 | det 4 | FP | 0.426 | 0.0 |  | no GT object here - unlabelled car or false alarm (check image) |
@@ -247,7 +247,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 | det 5 | TP | 0.772 | 0.693 | 4 |  |
 | det 6 | FP | 0.741 | 0.307 | 2 | poor localisation (IoU 0.31 with GT car 2) |
 | det 7 | FP | 0.739 | 0.495 | 3 | poor localisation (IoU 0.50 with GT car 3) |
-| det 8 | TP | 0.655 | 0.588 | 6 |  |
+| det 8 | TP | 0.655 | 0.589 | 6 |  |
 | det 9 | FP | 0.383 | 0.084 | 10 | no GT object here - unlabelled car or false alarm (check image) |
 | det 10 | FP | 0.372 | 0.391 | 9 | poor localisation (IoU 0.39 with GT car 9) |
 | det 11 | FP | 0.327 | 0.214 | 6 | poor localisation (IoU 0.21 with GT car 6) |
@@ -284,7 +284,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 | det 3 | TP | 0.785 | 0.915 | 0 |  |
 | det 4 | TP | 0.767 | 0.638 | 3 |  |
 | det 5 | FP | 0.728 | 0.435 | 7 | poor localisation (IoU 0.44 with GT car 7) |
-| det 6 | TP | 0.702 | 0.761 | 5 |  |
+| det 6 | TP | 0.702 | 0.76 | 5 |  |
 | det 7 | FP | 0.382 | 0.075 | 7 | small, unlabelled object (20 px high) - possibly a real car missing in GT |
 | det 8 | FP | 0.335 | 0.008 | 2 | small, unlabelled object (13 px high) - possibly a real car missing in GT |
 | GT 6 | FN |  | 0.227 | 6 | car detection overlaps only with IoU 0.23 < 0.5, truncated at image border (75%) |
@@ -298,13 +298,13 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 |---|---|---|---|---|---|
 | det 0 | TP | 0.897 | 0.92 | 0 |  |
 | det 1 | FP | 0.874 | 0.0 |  | no GT object here - unlabelled car or false alarm (check image) |
-| det 2 | TP | 0.514 | 0.678 | 1 |  |
+| det 2 | TP | 0.514 | 0.679 | 1 |  |
 | det 3 | FP | 0.512 | 0.0 |  | no GT object here - unlabelled car or false alarm (check image) |
 | det 4 | FP | 0.502 | 0.0 |  | no GT object here - unlabelled car or false alarm (check image) |
-| det 5 | FP | 0.441 | 0.0 |  | Van in full KITTI labels (not a 'Car') |
+| det 5 | FP | 0.442 | 0.0 |  | Van in full KITTI labels (not a 'Car') |
 | det 6 | FP | 0.384 | 0.0 |  | Van in full KITTI labels (not a 'Car') |
 | det 7 | FP | 0.368 | 0.0 |  | inside KITTI 'DontCare' region (unlabelled far/hidden vehicle) |
-| det 8 | FP | 0.26 | 0.0 |  | inside KITTI 'DontCare' region (unlabelled far/hidden vehicle) |
+| det 8 | FP | 0.261 | 0.0 |  | inside KITTI 'DontCare' region (unlabelled far/hidden vehicle) |
 
 ### 006329  -  P=0.60  R=1.00
 
@@ -314,7 +314,7 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 |---|---|---|---|---|---|
 | det 0 | TP | 0.909 | 0.663 | 2 |  |
 | det 1 | TP | 0.885 | 0.914 | 0 |  |
-| det 2 | FP | 0.796 | 0.403 | 0 | poor localisation (IoU 0.40 with GT car 0) |
+| det 2 | FP | 0.797 | 0.403 | 0 | poor localisation (IoU 0.40 with GT car 0) |
 | det 3 | TP | 0.68 | 0.753 | 1 |  |
 | det 4 | FP | 0.35 | 0.134 | 0 | poor localisation (IoU 0.13 with GT car 0) |
 
@@ -325,4 +325,4 @@ Colours: green = GT car found, orange = GT car missed (FN), blue = correct detec
 | what | status | conf | iou | gt | reason |
 |---|---|---|---|---|---|
 | det 0 | TP | 0.925 | 0.868 | 1 |  |
-| det 1 | TP | 0.875 | 0.93 | 0 |  |
+| det 1 | TP | 0.875 | 0.929 | 0 |  |
