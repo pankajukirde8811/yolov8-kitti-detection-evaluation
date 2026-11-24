@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# course material from Moodle - not redistributed
+data/*
+!data/README.md
+# YOLO weights are downloaded automatically on first run
+models/*.pt
+yolov8*.pt

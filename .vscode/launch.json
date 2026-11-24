@@ -1,0 +1,9 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Task 2: evaluate (YOLOv8m)", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/main.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Task 2: compare settings (ablation)", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/ablation.py", "cwd": "${workspaceFolder}", "console": "integratedTerminal"}
+  ]
+}
